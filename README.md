@@ -20,12 +20,12 @@
 ## 🏗️ Architecture
 
 ```mermaid
-graph TB
+flowchart TB
     subgraph Standalone_Sahayak
-        Streamlit[Streamlit UI]
-        Ollama[Ollama Local LLM]
-        RAG[RAG Flow<br/>Employee Lookup]
-        MySQL[MySQL<br/>Chat History]
+        Streamlit["Streamlit UI"]
+        Ollama["Ollama Local LLM"]
+        RAG["RAG Flow<br/>Employee Lookup"]
+        MySQL["MySQL<br/>Chat History"]
         
         Streamlit <--> Ollama
         Streamlit --> RAG
