@@ -23,17 +23,17 @@
 │ Standalone Sahayak │
 ├─────────────────────────────────────────────────────┤
 │ │
-│ ┌──────────────┐ ┌──────────────┐ │
-│ │ Streamlit │◄───│ Ollama │ │
-│ │ UI │ │ (Local LLM) │ │
-│ └──────┬───────┘ └──────────────┘ │
-│ │ │
-│ ▼ │
-│ ┌──────────────┐ ┌──────────────┐ │
-│ │ RAG Flow │───│ MySQL │ │
-│ │ Employee Look│ │ Chat History │ │
-│ └──────────────┘ └──────────────┘ │
-│ │
+│ ┌──────────────┐    ┌──────────────┐ │
+│ │ Streamlit    │◄───│ Ollama       │ │
+│ │ UI           │    │ (Local LLM)  │ │
+│ └──────┬───────┘    └──────────────┘ │
+│        │                             │
+│        ▼                             │
+│ ┌──────────────┐   ┌──────────────┐  │
+│ │ RAG Flow     │───│ MySQL        │  │
+│ │ Employee Look│   │ Chat History │  │
+│ └──────────────┘   └──────────────┘  │
+│                                      │
 └─────────────────────────────────────────────────────┘
 
 ---
@@ -314,8 +314,7 @@ MIT License - see [LICENSE](LICENSE) file for details
 
 ## 👤 Author
 
-**Tharun K**  
-AI Developer / Red Teamer  
+**Tharun K**   
 GitHub: [@chandutharun](https://github.com/chandutharun)  
 Location: Bengaluru, Karnataka, India
 
@@ -325,6 +324,6 @@ Location: Bengaluru, Karnataka, India
 
 If you found this project helpful, please **give it a star!**
 
-[![Star](https://img.shields.io/github/stars/chandutharun/standalone-sahayak?style=social)](https://github.com/chandutharun/standalone-sahayak)
+(https://github.com/chandutharun/standalone-sahayak)
 
 ---
