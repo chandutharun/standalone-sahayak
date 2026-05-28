@@ -1,11 +1,5 @@
 # 🤖 Standalone Sahayak
 
-[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://python.org)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-orange.svg)](https://streamlit.io)
-[![Ollama](https://img.shields.io/badge/Ollama-Local-purple.svg)](https://ollama.ai)
-[![MySQL](https://img.shields.io/badge/MySQL-Persistent-blue.svg)](https://mysql.com)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
 **AI-powered employee assistant** with local LLM inference, persistent chat history in MySQL, and lightweight RAG-style employee lookup. Built for internal enterprise demos.
 
 ---
