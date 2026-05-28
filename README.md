@@ -307,14 +307,17 @@ MIT License - see [LICENSE](LICENSE) file for details
 
 ---
 
+
 ## 👤 Author
 
-**Tharun K**   
-GitHub: [@chandutharun](https://github.com/chandutharun)  
-Location: Bengaluru, Karnataka, India
+
+**Tharun K**  
+AI Developer / Red Teamer
+📍 Bengaluru, Karnataka, India  
+🔗 GitHub: [@chandutharun](https://github.com/chandutharun)
+
 
 ---
-
 ## ⭐ Show Your Support
 
 If you found this project helpful, please **give it a star!**
