@@ -16,27 +16,22 @@
 | **🎨 Clean UI** | Streamlit sidebar with configuration + glass morphism design |
 | **🏢 Enterprise Ready** | Production-style layout for internal demos |
 
----
 
 ## 🏗️ Architecture
-┌─────────────────────────────────────────────────────┐
-│ Standalone Sahayak │
-├─────────────────────────────────────────────────────┤
-│ │
-│ ┌──────────────┐    ┌──────────────┐ │
-│ │ Streamlit    │◄───│ Ollama       │ │
-│ │ UI           │    │ (Local LLM)  │ │
-│ └──────┬───────┘    └──────────────┘ │
-│        │                             │
-│        ▼                             │
-│ ┌──────────────┐   ┌──────────────┐  │
-│ │ RAG Flow     │───│ MySQL        │  │
-│ │ Employee Look│   │ Chat History │  │
-│ └──────────────┘   └──────────────┘  │
-│                                      │
-└─────────────────────────────────────────────────────┘
 
----
+```mermaid
+graph TB
+    subgraph Standalone_Sahayak
+        Streamlit[Streamlit UI]
+        Ollama[Ollama Local LLM]
+        RAG[RAG Flow<br/>Employee Lookup]
+        MySQL[MySQL<br/>Chat History]
+        
+        Streamlit <--> Ollama
+        Streamlit --> RAG
+        RAG <--> MySQL
+    end
+```
 
 ## 🧠 How It Works (RAG Flow)
 User asks: "Who is the manager of engineering?"
