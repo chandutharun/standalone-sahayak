@@ -229,19 +229,6 @@ MYSQL_PASSWORD=your_password
 MYSQL_DATABASE=sahayak_db
 ```
 
-### Model Selection
-
-**Available Ollama models (in code):**
-
-| Model | Size | Accuracy | Speed | RAM Required |
-|---|---|---|---|---|
-| **llama3.1:8b** | 8B | 85% | Fast | 8GB |
-| **deepseek-r1:8b** | 8B | 88% | Fast | 8GB |
-| **gemma3:12b** | 12B | 90% | Medium | 16GB |
-| **deepseek-r1:70b** | 70B | 95%+ | Slow | 64GB+ |
-
-**Recommendation:** Use `llama3.1:8b` for testing.
-
 ---
 
 ## 🧪 Test Queries
