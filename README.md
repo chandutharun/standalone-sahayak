@@ -72,6 +72,7 @@ Response stored in MySQL chat_history table
 ---
 
 ## 🏗️ Project Structure
+```text
 standalone-sahayak/
 ├── app.py # Main Streamlit app (200+ lines)
 ├── requirements.txt # Python dependencies
@@ -83,7 +84,7 @@ standalone-sahayak/
 │ └── secrets.toml # Local credentials (NOT committed)
 └── images/
 └── screenshot.png # UI screenshot
-
+```
 ---
 
 ## 🚀 Quick Start
