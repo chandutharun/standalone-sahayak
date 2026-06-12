@@ -64,7 +64,6 @@ Response stored in MySQL chat_history table
 | **Frontend** | Streamlit (Python web UI) |
 | **LLM** | Ollama (llama3.1:8b, deepseek-r1:8b, gemma3:12b) |
 | **Database** | MySQL (chat_history + employee data) |
-| **ORM** | SQLAlchemy (database sessions) |
 | **Data** | Pandas (employee lookup) |
 | **HTTP** | Requests (Ollama API calls) |
 | **Language** | Python 3.10+ |
